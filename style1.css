@@ -6,13 +6,12 @@
     background: linear-gradient(170deg, rgba(0, 0, 255, 0.946),rgb(0, 191, 255));
     padding: 0px 5px 0px 5px;
     margin-top: 20px;
-    min-width: 340px;
-    max-width: 370px;
+    min-width: 240px;
+    max-width: 770px;
 }
 .title-C {
     line-height: 30px;
     text-align:center;
-    margin-left: 0px;
 }
 .cube-base {
     text-align:center;
