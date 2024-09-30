@@ -1,28 +1,18 @@
 .container {
-    background-color: #2A363B;
-    display:flex;
-    flex-direction: column;
-    color: rgba(255, 255, 255, 0.864);
     text-align:center;
+    display:grid;
+    grid-template-columns: 100px 300px 100px;
+    grid-template-rows: 100px 1fr 1fr;
 }
 .title-containe {
-    font-size: 18px;
-    margin-top: 30px;
-    margin-left: 4px;
-    color: #E84A5f;
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
 }
 .question {
-    font-size: 15px;
-    margin-left: 5px;
-    line-height: 30px;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
 }
 .text-containe {
-    border: 3px;
-    border-radius: 10px;
-    margin-left: 40px;
-    flex-direction: column;
-    margin-right:30px;
-    flex-wrap: wrap;
-    font-size: 15px;
-    width:190px
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
 }
